@@ -1,0 +1,158 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; /*khi tinh do rong ko tinh toi border*/ 
+}
+
+body{
+  background-color: #EDEDEF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #AC7F7A;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+header ul{
+  list-style: none;
+  line-height: 40px;
+  float: left
+}
+
+header ul li{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+
+header ul li a{
+  color:#AC7F7A;
+  padding: 0px 10px;
+}
+
+.logo{
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-size: 25px;
+  margin-right: 10px;
+  font-weight: 10;
+}
+
+header p{
+  float:right;
+  width: 30%;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.clear{
+  clear:both;
+}
+
+.banner{
+  width: 100%;
+  height: 400px;
+  background: url("img/pic8.png");
+  background-size: cover;
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.banner background img{
+  filter: brightness(10%);
+}
+.banner h1{
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.banner h2{
+  font-size: 15px;
+  line-height: 50px;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+
+.b-button {
+  background-color: #A05841;
+  border: none;
+  color: white; /*mau chu*/
+  padding: 15px 50px;
+  font-size: 15px;
+}
+
+.b-button:hover{
+  background-color: #BAA39B;
+}
+
+.card{
+  background-color: #fff;
+  margin: 30px 0px;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.card-center{
+  margin: 0 4.6%;
+}
+
+hr.brown{
+  border: none;
+  margin: 20px 0px;
+  border-bottom: 5px solid #A05841;
+  width: 20px;
+}
+
+.card h2{
+  color: #A05841;
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+.card img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover; 
+}
+
+.content{
+  width: 50%;
+  height: 400px;
+  float: left;
+  padding: 0 0;
+  text-align: center;
+}
+
+.content-box1{
+  background-color: #f8f9fa;
+}
+
+.content-box1 h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #A05841;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 20px;
+  letter-spacing: 10px;
+}
+
+.content-box1 h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 100px;
+  color: #A05841;
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 25px;
+}
