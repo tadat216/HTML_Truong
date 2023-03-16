@@ -180,3 +180,173 @@ hr.brown{
   color: #fff;
   background-color: #6c757d;
 }
+
+.contact{
+  width: 100%;
+  height:800px;
+  background-image: url("img/pic9.png");
+  background-size: cover;
+  margin: 50px 0px;
+  padding: 70px 0;
+}
+
+#form-contact{
+  width: 65%;
+  background-color: rgba(255, 255, 255, 0.66);
+  margin: auto auto;
+  padding: 50px 20px;
+}
+
+#form-contact h2{
+  font-weight: lighter;
+  letter-spacing: .35em;
+  font-size: 18px;  
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact-form{
+  width: 100%;
+}
+
+.contact-form-pcecial{
+  width: 48%;
+  float: left;
+}
+
+.contact-form input[type=text]{
+  width: 100%;
+  padding: 5px 0px;
+  margin: 10px 0px;
+  font-size: 15px;
+}
+
+#last-name{margin-left: 4%;}
+
+.contact-form input[type=button]
+{
+  width: 100%;
+  background-color: #A05841;  
+  color: #fff;
+  border: none;
+  padding: 15px 0;
+  font-size: 15px;
+}
+
+.contact-form input[type=button]:hover{
+  background-color: #BAA39B;
+  color: #000;
+}
+
+.contact-form textarea{
+  font-size: 10px;
+
+}
+
+
+
+footer{
+  background-color: #123132;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+footer h2{
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+footer h3{
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+.contact-form textarea{
+  width: 100%;
+  font-size: 17px;
+  height: 200px;
+}
+
+.information{
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  background-color: #123132;
+  padding: 70px 0;
+}
+
+.information a{
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.information a:hover{
+  text-decoration: underline;
+}
+
+.subcribe{
+  width: 33%;
+  margin: 0 auto;
+}
+
+.subcribe input[type = text]
+{
+  width: 60%;
+  float: left;
+  padding: 5px 0px;
+  margin: 10px 0px;
+  font-size: 15px;
+  border: solid 2px;
+  background-color: #123132;
+  border-color: #fff;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.subcribe input[type = button]
+{
+  width: 35%;
+  background-color: #fff;  
+  color: #123132;
+  border: none;
+  padding: 7px 0;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.subcribe input[type = button]:hover
+{
+  background-color: #6c757d;  
+  color: #fff;
+}
+
+.fa {
+  margin: 30px 5px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter{
+  color: #fff;
+}
+
+.fa-pinterest{
+  color: #fff;
+}
+
+.fa-instagram{
+  color: #fff;
+}
