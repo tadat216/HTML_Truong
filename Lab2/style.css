@@ -332,21 +332,7 @@ footer h3{
   width: 50px;
   text-align: center;
   text-decoration: none;
+  color: #fff;
 }
 
 /* Facebook */
-.fa-facebook {
-  color: white;
-}
-
-.fa-twitter{
-  color: #fff;
-}
-
-.fa-pinterest{
-  color: #fff;
-}
-
-.fa-instagram{
-  color: #fff;
-}
